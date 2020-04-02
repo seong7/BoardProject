@@ -15,6 +15,7 @@ html {
   font-family: "Nanum Myeongjo", serif;
   //   font-family: "Nunito Sans", serif;
   color: white;
+  background-color: #2b3137;
 }
 @media only screen and (min-width: 1200px) {
   html {
@@ -28,7 +29,6 @@ button {
 
 .content {
   height: 100vh;
-  background-color: #2b3137;
   display: flex;
   flex-direction: column;
   padding: 0rem 3%;

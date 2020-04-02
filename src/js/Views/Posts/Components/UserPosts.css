@@ -1,0 +1,87 @@
+.posts_container {
+  margin-top: 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Noto Serif KR", serif;
+}
+
+.posts_container .userPost {
+  background-color: white;
+  color: #2b3137;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem 0rem;
+  border-radius: 7px;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  max-width: 90rem;
+  width: 85%;
+}
+
+.posts_container .userPost .postContent {
+  width: 90%;
+}
+
+.posts_container .userPost .postContent .postHeader {
+  text-align: right;
+  line-height: 1.5;
+}
+
+.posts_container .userPost .postContent .postHeader i {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  margin-left: 5px;
+  font-size: 3.5rem;
+}
+
+.posts_container .userPost .postContent .postText {
+  margin-top: 2rem;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.posts_container .userPost .postContent .postBottom p {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.posts_container .userPost .postVote {
+  font-size: 3.7rem;
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.posts_container .userPost .postVote p {
+  margin: 1rem 0;
+}
+/*# sourceMappingURL=UserPosts.css.map */

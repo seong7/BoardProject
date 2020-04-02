@@ -22,6 +22,7 @@
     "eslint linebreak-style": [0, "error", "windows"],
     "no-alert": "warn",
     "no-unused-vars": "warn",
-    "quotes": [2, "double", { "avoidEscape": false }]
+    "quotes": [2, "double", { "avoidEscape": false }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
   }
 }

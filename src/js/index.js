@@ -7,6 +7,7 @@ import * as postView from "./Views/Posts/postsView";
 
 window.addEventListener("load", () => {
   headerView.render();
+
   setTimeout(() => {
     sectionView.render();
     postView.render();

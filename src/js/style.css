@@ -16,6 +16,7 @@ html {
   font-size: 50%;
   font-family: "Nanum Myeongjo", serif;
   color: white;
+  background-color: #2b3137;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -30,7 +31,6 @@ button {
 
 .content {
   height: 100vh;
-  background-color: #2b3137;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
