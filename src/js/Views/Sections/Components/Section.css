@@ -1,0 +1,37 @@
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7%;
+  font-size: 3rem;
+}
+
+section p {
+  margin-bottom: 2rem;
+  line-height: 2;
+}
+
+section p strong {
+  font-size: 3.5rem;
+}
+
+section button {
+  height: 5rem;
+  padding: 0rem 0.7rem;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  background-color: #24292e;
+  color: white;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=Section.css.map */
