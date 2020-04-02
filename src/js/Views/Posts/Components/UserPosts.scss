@@ -1,0 +1,57 @@
+.posts_container {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Serif KR", serif;
+  .userPost {
+    background-color: white;
+    color: #2b3137;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0rem;
+    border-radius: 7px;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    max-width: 90rem;
+    width: 85%;
+    .postContent {
+      width: 90%;
+      .postHeader {
+        text-align: right;
+        line-height: 1.5;
+        i {
+          transform: translateY(5px);
+          margin-left: 5px;
+          font-size: 3.5rem;
+        }
+      }
+      .postText {
+        margin-top: 2rem;
+        font-size: 3rem;
+        margin-bottom: 5rem;
+      }
+      .postBottom {
+        // display: flex;
+        p {
+          display: inline-block;
+          margin-right: 2rem;
+        }
+      }
+    }
+    .postVote {
+      font-size: 3.7rem;
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        margin: 1rem 0;
+      }
+    }
+  }
+}

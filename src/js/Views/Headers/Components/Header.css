@@ -1,0 +1,48 @@
+.header {
+  padding: 1rem 2%;
+  height: 6rem;
+  background-color: #24292e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header a {
+  font-size: 3rem;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  display: inline-block;
+  height: 100%;
+}
+
+.header div button {
+  height: 100%;
+  padding: 0rem 0.7rem;
+  border-radius: 5px;
+  border: 0.5px solid white;
+}
+
+.header div button:nth-of-type(1) {
+  background-color: #24292e;
+  color: white;
+  margin-right: 1.5rem;
+}
+
+.header div button:nth-of-type(2) {
+  background-color: white;
+  color: #24292e;
+}
+/*# sourceMappingURL=Header.css.map */
