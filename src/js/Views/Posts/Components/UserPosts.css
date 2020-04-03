@@ -1,5 +1,5 @@
 .posts_container {
-  margin-top: 6%;
+  margin-top: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,18 +26,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 2rem 0rem;
-  border-radius: 7px;
+  margin: 1rem 0rem;
+  border-radius: 30px;
   padding-top: 1rem;
   padding-left: 2rem;
   padding-bottom: 1rem;
-  font-size: 2rem;
-  max-width: 90rem;
+  font-size: 0.9rem;
+  max-width: 60rem;
   width: 85%;
 }
 
 .posts_container .userPost .postContent {
-  width: 90%;
+  width: 100%;
 }
 
 .posts_container .userPost .postContent .postHeader {
@@ -49,23 +49,33 @@
   -webkit-transform: translateY(5px);
           transform: translateY(5px);
   margin-left: 5px;
-  font-size: 3.5rem;
+  font-size: 0.9rem;
 }
 
 .posts_container .userPost .postContent .postText {
-  margin-top: 2rem;
-  font-size: 3rem;
-  margin-bottom: 5rem;
+  margin-top: 0.8rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.posts_container .userPost .postContent .postBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .posts_container .userPost .postContent .postBottom p {
   display: inline-block;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 .posts_container .userPost .postVote {
-  font-size: 3.7rem;
-  width: 15%;
+  font-size: 1.2rem;
+  width: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

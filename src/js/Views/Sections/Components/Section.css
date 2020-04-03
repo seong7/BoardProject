@@ -12,26 +12,21 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 7%;
-  font-size: 3rem;
+  margin-top: 3rem;
+  font-size: 1.4rem;
 }
 
 section p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   line-height: 2;
+  letter-spacing: 0.2rem;
 }
 
 section p strong {
-  font-size: 3.5rem;
+  font-size: 1.8rem;
 }
 
 section button {
-  height: 5rem;
-  padding: 0rem 0.7rem;
-  border-radius: 5px;
-  border: 0.5px solid white;
-  background-color: #24292e;
-  color: white;
-  font-size: 2rem;
+  height: 2.5rem;
 }
 /*# sourceMappingURL=Section.css.map */

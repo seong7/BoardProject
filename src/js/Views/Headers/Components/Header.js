@@ -9,12 +9,12 @@ export const markup = () => `
         <!-- <i class="far fa-comments"></i> -->
         <!-- <i class="fas fa-code"></i> -->
         <p>
-            < /&nbsp>
+            <strong>< /&nbsp></strong>
         </p>
     </a>
     <div>
-        <button>로그인</button>
-        <button>회원가입</button>
+        <button class="blackBtn">로그인</button>
+        <button class="whiteBtn">회원가입</button>
     </div>
 </div>
 
