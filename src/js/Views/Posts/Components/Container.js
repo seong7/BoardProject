@@ -1,13 +1,14 @@
 import elements from "../../base";
 import * as userPosts from "./UserPosts";
 
-// const userPostMarkUp = () => {
-//   let markUp = "";
-//   for (let i = 0; i < 5; i++) {
-//     markUp += userPosts.markUp();
-//   }
-//   return markUp;
-// };
+export const userPostMarkUp = (postArry) => {
+  let markUp = "";
+  for (let i = 0; i < postArry.length; i++) {
+    markUp += userPosts.markUp(postArry[i]);
+  }
+  document.querySelector(".posts_container").insertAdjacentHTML("beforeend", markUp);
+  // return markUp;
+};
 
 export const markUp = () => `
 <div class="posts_container">

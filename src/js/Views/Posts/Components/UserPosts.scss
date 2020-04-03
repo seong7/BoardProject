@@ -33,6 +33,13 @@
         margin-top: 0.8rem;
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
+        p {
+          // width 초과하면 ... 으로 표시함
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          width: 95%;
+        }
       }
       .postBottom {
         display: flex;

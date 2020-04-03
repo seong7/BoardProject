@@ -38,6 +38,7 @@ const testPost = [
 
 export const render = () => {
   elements.content.insertAdjacentHTML("beforeend", Container.markUp());
-  Container.renderPosts(testPost);
+  // Container.renderPosts(testPost);
+  Container.userPostMarkUp(testPost);
 };
 export const test = () => {};
