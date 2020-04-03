@@ -1,6 +1,6 @@
 .header {
-  padding: 1rem 2%;
-  height: 6rem;
+  padding: 0.5rem 2%;
+  height: 3rem;
   background-color: #24292e;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,7 +14,7 @@
 }
 
 .header a {
-  font-size: 3rem;
+  font-size: 30px;
   font-weight: lighter;
   cursor: pointer;
 }
@@ -23,26 +23,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 2rem;
   display: inline-block;
   height: 100%;
 }
 
-.header div button {
-  height: 100%;
-  padding: 0rem 0.7rem;
-  border-radius: 5px;
-  border: 0.5px solid white;
-}
-
-.header div button:nth-of-type(1) {
-  background-color: #24292e;
-  color: white;
-  margin-right: 1.5rem;
-}
-
-.header div button:nth-of-type(2) {
-  background-color: white;
-  color: #24292e;
+.header button:nth-of-type(1) {
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=Header.css.map */

@@ -5,9 +5,11 @@ export const markUp = () => `
 <section>
     <p>
         <strong>간단한 회원가입</strong>으로</br>
+    </p>
+    <p>
         <strong>누구나</strong> 사용 가능한 <strong>게시판</strong>
     </p>
-    <button>시작하기</button>
+    <button class="blackBtn">시작하기</button>
 </section>
 `;
 

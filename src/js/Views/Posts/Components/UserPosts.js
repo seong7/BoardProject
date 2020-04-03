@@ -6,7 +6,7 @@ export const markUp = (post) => `
     <div class="postHeader">
       <p>
         ${post.time} by ${post.user}
-        <i class="fas fa-user-circle"></i>
+        <!--<i class="fas fa-user-circle"></i>-->
       </p>
       <!--<img src=""/>-->
     </div>
@@ -26,9 +26,11 @@ export const markUp = (post) => `
     </div>
   </div>
   <div class="postVote">
-    <i class="fas fa-arrow-up"></i>
+    <!--<i class="fas fa-arrow-up"></i>-->
+    <i class="fas fa-chevron-up"></i>
     <p>${post.vote}</p>
-    <i class="fas fa-arrow-down"></i>
+    <!--<i class="fas fa-arrow-down"></i>-->
+    <i class="fas fa-chevron-down"></i>
   </div>
 </div>
 `;
