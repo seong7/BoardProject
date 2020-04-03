@@ -25,6 +25,10 @@ html {
   }
 }
 
+body {
+  min-height: calc(100vh - 2 * 4vw);
+}
+
 button {
   cursor: pointer;
   height: 100%;

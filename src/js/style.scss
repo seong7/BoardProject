@@ -23,6 +23,9 @@ html {
     font-size: 12px;
   }
 }
+body {
+  min-height: calc(100vh - 2 * 4vw);
+}
 
 button {
   cursor: pointer;
