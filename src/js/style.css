@@ -29,10 +29,6 @@ body {
   min-height: calc(100vh - 2 * 4vw);
 }
 
-.wrapper {
-  background-color: cornflowerblue;
-}
-
 button {
   cursor: pointer;
   height: 100%;
