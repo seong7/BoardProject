@@ -1,5 +1,6 @@
 import elements from "../base";
-import * as Container from "./Components/Container";
+import * as container from "./Components/Container/Container";
+import * as userPosts from "./Components/UserPosts/UserPosts";
 
 const testPost = [
   {
@@ -36,9 +37,36 @@ const testPost = [
   },
 ];
 
-export const render = () => {
-  elements.content.insertAdjacentHTML("beforeend", Container.markUp());
-  // Container.renderPosts(testPost);
-  Container.userPostMarkUp(testPost);
+const renderPostsAsync = (postArry, num = 0) => {
+  const arry = postArry;
+  let i = num;
+  if (i === arry.length) return;
+  setTimeout(() => {
+    document
+      .querySelector(".posts_container")
+      .insertAdjacentHTML("beforeend", userPosts.markUp(arry[i]));
+    i++;
+    renderPostsAsync(arry, i);
+  }, 1000);
 };
-export const test = () => {};
+
+const userPostMarkUp = (postArry) => {
+  let markUp = "";
+  for (let i = 0; i < postArry.length; i++) {
+    markUp += userPosts.markUp(postArry[i]);
+  }
+  return markUp;
+};
+
+export const render = () => {
+  elements.content.insertAdjacentHTML("beforeend", container.markUp());
+  // renderPostsAsync(testPost);
+  document
+    .querySelector(".posts_container")
+    .insertAdjacentHTML("beforeend", userPostMarkUp(testPost));
+
+  userPosts.eventPosts();
+  userPosts.eventVotes();
+};
+
+export const event = () => {};

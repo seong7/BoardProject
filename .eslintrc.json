@@ -23,6 +23,6 @@
     "no-alert": "warn",
     "no-unused-vars": "warn",
     "quotes": [2, "double", { "avoidEscape": false }],
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    "no-plusplus": "off"
   }
 }

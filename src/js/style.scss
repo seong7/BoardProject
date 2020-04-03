@@ -26,10 +26,6 @@ html {
 body {
   min-height: calc(100vh - 2 * 4vw);
 }
-.wrapper {
-  // overflow: hidden;
-  // background-color: cornflowerblue;
-}
 
 button {
   cursor: pointer;
@@ -52,5 +48,5 @@ button {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  // padding: 0rem 3%;
+  margin-top: 3rem;
 }

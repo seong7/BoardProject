@@ -5,6 +5,11 @@
   display: flex;
   justify-content: space-between !important;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: 0;
+  width: 100%;
   a {
     font-size: 30px;
     font-weight: lighter;
