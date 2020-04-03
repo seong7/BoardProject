@@ -19,6 +19,12 @@ html {
   background-color: #2b3137;
 }
 
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 12px;
+  }
+}
+
 button {
   cursor: pointer;
   height: 100%;
