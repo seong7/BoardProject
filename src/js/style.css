@@ -29,6 +29,11 @@ body {
   min-height: calc(100vh - 2 * 4vw);
 }
 
+.wrapper {
+  overflow: hidden;
+  background-color: cornflowerblue;
+}
+
 button {
   cursor: pointer;
   height: 100%;
