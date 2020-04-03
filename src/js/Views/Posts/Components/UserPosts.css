@@ -17,6 +17,9 @@
 }
 
 .posts_container .userPost {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   background-color: white;
   color: #2b3137;
   display: -webkit-box;

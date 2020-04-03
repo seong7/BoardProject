@@ -6,6 +6,7 @@
   justify-content: center;
   font-family: "Noto Serif KR", serif;
   .userPost {
+    flex-grow: 1;
     background-color: white;
     color: #2b3137;
     display: flex;
