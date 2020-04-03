@@ -45,8 +45,12 @@
         display: flex;
         flex-direction: row;
         p {
-          display: inline-block;
+          display: flex;
+          flex-direction: row;
           margin-right: 1.5rem;
+          i {
+            margin-right: 0.3rem;
+          }
         }
       }
     }
@@ -61,5 +65,11 @@
         margin: 1rem 0;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .userPost {
+    min-width: 8.3rem;
   }
 }
