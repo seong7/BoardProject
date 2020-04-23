@@ -25,6 +25,10 @@ html {
   }
 }
 
+body {
+  min-height: calc(100vh - 2 * 4vw);
+}
+
 button {
   cursor: pointer;
   height: 100%;
@@ -53,5 +57,6 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

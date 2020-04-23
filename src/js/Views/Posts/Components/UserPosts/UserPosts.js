@@ -5,7 +5,7 @@ export const markUp = (post) => `
   <div class="postContent">
     <div class="postHeader">
       <p>
-        ${post.time} by ${post.user}
+        ${post.time} by <strong> ${post.user}</strong>
         <!--<i class="fas fa-user-circle"></i>-->
       </p>
       <!--<img src=""/>-->
@@ -27,12 +27,25 @@ export const markUp = (post) => `
   </div>
   <div class="postVote">
     <!--<i class="fas fa-arrow-up"></i>-->
-    <i class="fas fa-chevron-up"></i>
+    <i class="fas fa-chevron-up voteUp"></i>
     <p>${post.vote}</p>
     <!--<i class="fas fa-arrow-down"></i>-->
-    <i class="fas fa-chevron-down"></i>
+    <i class="fas fa-chevron-down voteDown"></i>
   </div>
 </div>
 `;
 
-export const test = () => {};
+export const eventPosts = () => {
+  [".postText", ".postBottom"].forEach((selector) => {
+    document.querySelector(selector).addEventListener("click", () => {
+      // console.log(selector);
+    });
+  });
+};
+export const eventVotes = () => {
+  [".voteUp", ".voteDown"].forEach((selector) => {
+    document.querySelector(selector).addEventListener("click", () => {
+      // console.log(selector);
+    });
+  });
+};

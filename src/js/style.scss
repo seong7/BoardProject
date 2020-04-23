@@ -23,6 +23,9 @@ html {
     font-size: 12px;
   }
 }
+body {
+  min-height: calc(100vh - 2 * 4vw);
+}
 
 button {
   cursor: pointer;
@@ -45,5 +48,5 @@ button {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  // padding: 0rem 3%;
+  margin-top: 3rem;
 }
